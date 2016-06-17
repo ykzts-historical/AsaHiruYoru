@@ -1,0 +1,11 @@
+machine:
+  php:
+    version: 7.0.4
+
+dependencies:
+  pre:
+    - composer install --dev
+
+test:
+  override:
+    - make test
